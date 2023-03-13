@@ -1,0 +1,42 @@
+GeoMX vs. Bulk vs. Single cell
+
+Bulk:
+우리가 일반적으로 아는 Geonomics 분석은 다음과 같이 Bulk 단위로 분석하는 방법입니다.
+Bulk 분석은 원하는 조직에 대해 쉽게 RNA profiling 할 수 있지만 조직은 여러 종류의 세포들로 이루어져 있어서, 
+RNA profiling과 같은 분석 방법으로 분석할 경우 다양한 세포들의 RNA 정보가 섞여서 표현되기 때문에 연구자가 
+원하는 결과와 많이 다를 수 있고 이러한 한계를 해결을 할 수 있는 Single cell genomics가 많은 관심을 받고 있습니다.
+
+
+Single cell sequencing 을 이용한 결과는 다양한 cell type별로 분리할 수 있으며, 각 cell 집합을 분석할 수 있습니다. 
+또한 각 cell type 별로 RNA profiling 도 가능하기 때문에 bulk genomics의 한계를 많이 보완했다고 할 수 있습니다.
+하지만 single cell genomics를 통해서도 내가 원하는 조직에 대해 어떤 위치에 어떤 형태로 있는지 공간적인 정보를 얻을 수 없습니다. 
+
+
+이런 문제를 해결할 수 있는 대표적인 방법이 Spatial Genomics 입니다. GeoMx 실험은 연구자분들께서 조직의 원하는 위치를 직접 지정하기 
+때문에 해당 관심영역 에 대해 RNA 발현값 등 다양한 분석을 진행할 수 있는 장점이 있습니다.
+또한 morphology marker 를 이용한 염색 방법으로 marker 에 반응하는 cell 들에 대해 비교분석도 할 수 있는 장점이 있습니다.
+
+
+RNA profiling: RNA 유전자 발현의 중요한 지표 중 하나이며, RNA 프로파일링은 전사체(transcriptome)의 분석을 통해 세포나 조직에서 
+                         발현되는 RNA의 양과 종류를 파악할 수 있습니다.
+
+Heterogeneous: 조직은 여러 종류의 세포들로 이루어져 있어서, RNA profiling과 같은 분석 방법으로 분석할 경우 다양한 세포들의 RNA 정보가 
+                        섞여서 나타나기 때문에 결과가 다양성을 가질 수 있다는 것을 의미
+
+Bulk vs. Single cell: Bulk sequencing은 샘플 내 모든 세포에서 유전자 발현, 돌연변이 또는 다른 유전자적 특징의 평균 결과를 제공하는 반면, 
+                      single-cell sequencing은 샘플 내 개별 세포의 유전자 물질을 분석할 수 있습니다.
+
+
+Bulk sequencing: 은 샘플에서 DNA 또는 RNA를 추출하고 증폭한 후, 유전자 물질의 풀을 시퀀싱하는 것입니다. 이 방법은 전체 샘플 내 평균적인 유전자 발현, 
+                 돌연변이 또는 다른 유전자적 특징을 제공합니다.
+
+
+single-cell sequencing: 은 샘플 내 개별 세포를 분리하고 각 세포에서 DNA 또는 RNA를 추출한 후, 개별 세포의 유전자 물질을 시퀀싱하는 것입니다. 
+                        이 방법은 샘플 내 개별 세포의 유전자 발현, 돌연변이 또는 다른 유전자적 특징을 분석할 수 있습니다. 
+                        Single-cell sequencing은 서로 다른 세포들이 샘플 내에서 다른 유전학적 및 기능적 특성을 가질 수 있는 세포 이질성을 연구하는 데 특히 유용합니다. 
+                        개별 세포의 유전자 물질을 분석함으로써, 연구자들은 세포들이 서로 다르게 어떻게 작용하며, 이러한 차이가 생물학적 과정에 어떻게 
+                                      기여하는지에 대해 더 잘 이해할 수 있습니다.
+
+
+전반적으로, Bulk sequencing은 샘플 내 유전자 물질의 일반적인 개요를 제공하는 반면, single-cell sequencing은 샘플 내 개별 세포의 유전자 물질 분석 
+
