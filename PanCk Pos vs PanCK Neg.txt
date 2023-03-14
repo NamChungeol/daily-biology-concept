@@ -3,10 +3,33 @@ PanCk Pos vs PanCK Neg
 
 Segment/AOI 에 positive, negative 를 염색하여 DEG 분석을 진행한다. 
 Pancytokeratin (PanCK) positive 와 Pancytokeratin negative 는 조직 내에서 발현되는 Pancytokeratin 단백질의 존재 여부에 따라 구분되는 용어입니다.
-Pancytokeratin은 다양한 종류의 세포에서 발현되는 중간필라멘트 단백질 중 하나로, 다양한 종류의 암세포에서 종종 발현됩니다. 따라서, 조직 내에서 Pancytokeratin이 양성으로 검출되면 해당 조직에서 암세포가 발견될 가능성이 있습니다.
+Pancytokeratin은 다양한 종류의 세포에서 발현되는 중간필라멘트 단백질 중 하나로, 다양한 종류의 암세포에서 종종 발현됩니다. 따라서, 조직 내에서 
+Pancytokeratin이 양성으로 검출되면 해당 조직에서 암세포가 발견될 가능성이 있습니다.
 
 
 PanCK Postive: Pancytokeratin 단백질이 조직 내에서 검출되었음을 의미하며 (암검출됨)
 PanCK negative: 는 Pancytokeratin 단백질이 검출되지 않았음을 의미합니다. 
 
 암 진단에 있어서는, PanCK positive 세포의 존재가 암 진단을 위한 중요한 마커(marker) 중 하나이기도 합니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
