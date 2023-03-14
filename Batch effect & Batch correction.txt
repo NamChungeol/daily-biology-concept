@@ -10,3 +10,8 @@ Batch correction:
 Batch correction은 실험의 일관성을 향상시켜, 다른 batch 간에 비교 가능한 결과를 얻을 수 있습니다. 
 Batch correction은 실험 데이터의 전처리 과정 중 하나로, 다양한 방법이 존재합니다. 가장 일반적인 방법으로는 각 batch에서의 
 데이터 분포의 차이를 파악한 뒤, 이를 보정하는 방법이 있습니다. 다른 방법으로는 ComBat, sva 등의 특수한 알고리즘을 사용하여 batch effect를 보정하는 방법도 있습니다
+
+
+
+
+
