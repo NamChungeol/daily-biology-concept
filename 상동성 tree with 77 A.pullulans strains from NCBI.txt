@@ -1,0 +1,33 @@
+상동성 tree with 77 A.pullulans strains from NCBI
+
+1. 먼저 NCBI 에서 77개 assembly data(fasta) 를 다운로드 한다. - genome sequence
+
+2. 다운로드 된 파일들의 이름을  바꿔준다.(genome assembly and annotation report에서 검색을하여 csv 파일을 다운로드 받고 매칭되는 strain이름으로 변경해준다)
+
+3. many to many를 하기위해서 text 파일 두개를 만들어주고 안에 비교할 파일명들을 집어넣고 리눅스 서버에 옮겨준다.
+
+4. 그리고 fastANI깃에서 바이너리 파일을 다운로드 해서 리눅스 서버에 풀어준다
+
+
+
+5. $ ./fastANI -h
+
+6. $ ./fastANI --ql 홍길동.txt --rl 홍길동.txt -o 78Genome.out -t 32 --matrix
+
+7. 분석 결과가 나오면 matrix 포맷을 
+
+We need to use output.txt file to create the tree, not the .matrix file.
+
+First, convert output.txt to output.phylip
+$ python3 pairwise_identities_to_distance_matrix.py --max_dist 0.2 output.txt > output.phylip
+
+Second, build the tree.
+Rscript bionj_tree.R output.phylip ./output.newick
+
+
+
+pairwise_identities_to_distance_matrix.py는 Bascort깃에 있는데 이를 사용하기 위해서 Bascort깃을 클론한다.
+
+git clone https//github.com/rrwick/Bascort.git 를 사용하여 pyhlip으로 바꿔주고 bionj_tree.R로 추출한 phylip을 newick으로 바꾸준다.
+그리고 그래프.
+
